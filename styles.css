@@ -64,7 +64,12 @@ body {
      - Add 10px of margin on the left and right sides only
      - Set the font-size to 1rem
 --------------------------------------------------------------- */
-
+nav a {
+  color: #f39c12;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+}
 
 
 /* ---------------------------------------------------------------
@@ -73,6 +78,10 @@ body {
      - Change the text-decoration to underline
      - Change the color to #ffffff
 --------------------------------------------------------------- */
+nav a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
 
 
 
@@ -83,6 +92,12 @@ body {
      - Center it horizontally using auto margins
      - Add 40px of padding on all sides
 --------------------------------------------------------------- */
+main 
+{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
 
 
 
